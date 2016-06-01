@@ -1,6 +1,6 @@
 h1 {
-    font-size: 50px;
-	color: #ff0000;
+	font-size: 40px;
+	font-family: Comic Sans MS;
 }
 img {
 	max-width: 150px;
@@ -9,6 +9,20 @@ img {
 span {
 	color: #ffffff;
 }
-center {
-	color: #0000ff
+#nav {
+	float: left;
+	background-color: #eeeeee;
+	padding: 5px;
+}
+#header {
+	text-align: center;
+	padding: 5px;
+	background-color: #0000e6;
+	color: white;
+}
+#about {
+	float: right;
+	padding: 5px;
+	background-color: #eeeeee;
+	text-align: center;
 }
