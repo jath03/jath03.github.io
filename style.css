@@ -26,3 +26,8 @@ span {
 	background-color: #eeeeee;
 	text-align: center;
 }
+#section1 {
+	float: center;
+	padding: 5px;
+	text-align:center;
+}
