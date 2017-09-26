@@ -1,0 +1,35 @@
+html {
+  font-family: arial;
+  overflow: hidden;
+}
+
+.troll-image {
+  max-width: 320px;
+  max-height: 240px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+#header {
+  width: 100%;
+  background: #0099FF;
+  line-height: 3em;
+}
+
+#title {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 1.25em;
+  }
+}
