@@ -9,11 +9,6 @@ var urlsToCache = [
   '/sw.js',
   '/page.html',
   '/offline.html',
-  '/icons/testing-30x30.png',
-  '/icons/testing-60x60.png',
-  '/icons/testing-90x90.png',
-  '/icons/testing-180x180.png',
-  '/icons/testing-200x200.png'
 ];
 
 var cacheName = "test-webapp-v1";
@@ -22,6 +17,8 @@ self.addEventListener("install", function(event) {
   event.waitUntil(caches.open(cacheName).then(function(cache) {
     console.log('opened cache');
     return cache.addAll(urlsToCache);
+  }, function(err) {
+    console.log(err);
   }));
 });
 
