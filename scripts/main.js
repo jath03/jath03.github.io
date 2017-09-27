@@ -37,4 +37,3 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-setInterval(addImage, 2000)
