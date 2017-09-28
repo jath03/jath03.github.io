@@ -20,7 +20,7 @@ html {
 }
 
 #nav {
-  background-image: -webkit-linear-gradient(bottom, #FFFFFF, #000000);
+  background-image: -webkit-linear-gradient(bottom, #0099FF, #000000);
   height: 100%;
   width 0;
   position: fixed;
@@ -46,8 +46,8 @@ html {
 
 #nav a {
   text-decoration: none;
-  color: #000000;
-  background-color: #bababa;
+  color: #0099FF;
+  background-color: #FFFFFF;
   text-align: center;
 }
 
