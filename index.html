@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/scripts/jquery-3.2.1.min.js"></script>
-    <script src="/scripts/main.js"></script>
-    <title>My Webapp</title>
-    <link href="/manifest.json" rel="manifest"/>
-    <link href="/style.css" rel="stylesheet" type="text/css" />
-    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hgoflmajhinnohnhkfeggflmmppiilck">
-  </head>
-  <body>
-    <div id="header">
-      <a href="#" onclick="openNav();" id="navButton">&#9776;</a>
-      <div id="title">
-        <h1 class="title">My Example Webapp</h1>
-      </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="/scripts/jquery-3.2.1.min.js"></script>
+  <script src="/scripts/main.js"></script>
+  <title>My Webapp</title>
+  <link href="/manifest.json" rel="manifest"/>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="header">
+    <a href="#" onclick="openNav();" id="navButton">&#9776;</a>
+    <div id="title">
+      <h1 class="title">My Example Webapp</h1>
     </div>
-    <div id="nav" class="sideNav">
-      <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-      <h1 class="title">Navigator</h4>
-    </div>
-  </body>
+  </div>
+  <div id="nav" class="sideNav">
+    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+    <h1 class="title">Navigator</h4>
+    <div class="listBtn">Example Page</div>
+  </div>
+</body>
 </html>
