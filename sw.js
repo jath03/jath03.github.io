@@ -27,7 +27,10 @@ self.addEventListener("fetch", function(event) {
     if (response) {
       return response;
     }
-    return fetch(event.request).catch(function(error) {
+    return fetch(event.request).then(function(){}, function(error) {
+      console.log("Responding with offline page for request of " + event.request.url + " because of error: \"" + error + "\"");
+      return caches.match("/offline.html");
+    }).catch(function(error) {
       console.log("Responding with offline page for request of " + event.request.url + " because of error: \"" + error + "\"");
       return caches.match("/offline.html");
     });
