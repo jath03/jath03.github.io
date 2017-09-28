@@ -13,6 +13,7 @@ function closeNav() {
 
 
 function main() {
+  closeNav();
   $("#header").click(function() {
     $("#header").hide();
     $("#header").fadeIn(1000);
@@ -36,4 +37,3 @@ if ("serviceWorker" in navigator) {
     });
   });
 }
-
