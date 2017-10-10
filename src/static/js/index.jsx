@@ -1,5 +1,7 @@
 var $ = require("jquery");
 
+import styles from '../css/style.css'
+
 function openNav() {
   if (screen.width < 500) {
     document.getElementById("nav").style.width = "100%";
